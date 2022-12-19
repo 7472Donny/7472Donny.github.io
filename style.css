@@ -1,0 +1,100 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-size: 100%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Hieronder mag je eigen CSS code */
+
+  body {
+    background-image: url("wit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: rgb(99, 99, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    color:rgb(255, 255, 255)
+  }
+
+
+
+
+.menu:hover {
+  background-color:rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: larger; 
+}
+
+.Divclass {
+  background-image: url("poging8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-color:rgb(0, 0, 0);
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border: 3px solid rgb(0, 0, 0)
+  
+}
+
+
+.Divclass2 {
+  background-image: url("poging8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-color:rgb(0, 0, 0);
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border: 3px solid rgb(0, 0, 0)
+  
+}
+.menu { 
+ 
+  background-color: #136cbe;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.6s;
+}
+
+
+
+
+
+.tablestreams {
+color: black;
+margin-bottom:60px;
+}
+
+
